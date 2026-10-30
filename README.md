@@ -64,5 +64,157 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-deapi-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://deapi.ai/
+deAPI provides a unified RESTful API that gives developers access to open-source generative AI models for image generation, text-to-speech, video transcription, and more. By routing requests through a decentralized GPU cloud, it offers fast, scalable inference at a fraction of typical costs. New users receive free credits, and pricing is usage‑based with transparent rates. The platform includes comprehensive documentation, SDKs, and a playground for quick experimentation.
+
+**Areas:** AI · Generative AI · API · Open-source · Image Generation · Text-to-Speech · Video Transcription
+
+## deapi-ai on APIs.io
+
+Everything profiled for deapi-ai is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/deapi-ai/](https://apis.io/providers/deapi-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [deapi-ai Client API](https://apis.io/apis/deapi-ai/deapi-ai-client-api-api/) — Endpoints for client operations
+- [deapi-ai Client API v2 API](https://apis.io/apis/deapi-ai/deapi-ai-client-api-v2-api/) — Current client endpoints (OpenAI-aligned noun-based paths)
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Deapi Ai Webhooks](https://apis.io/asyncapis/deapi-ai/deapi-ai-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Deapi Ai Agentic Access](https://apis.io/agentic-access/deapi-ai/deapi-ai-agentic-access/)
+
+#### JSON Schema (4)
+
+The data models the API reads and writes.
+
+- [ClientDiffusionModelCollection](https://apis.io/schemas/deapi-ai/deapi-ai-client-diffusion-model-collection/)
+- [ClientInfoResource](https://apis.io/schemas/deapi-ai/deapi-ai-client-info-resource/)
+- [JobRequestResponseResource](https://apis.io/schemas/deapi-ai/deapi-ai-job-request-response-resource/)
+- [JobRequestStatusResource](https://apis.io/schemas/deapi-ai/deapi-ai-job-request-status-resource/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Deapi Ai Context](https://apis.io/jsonld/deapi-ai/deapi-ai-context/)
+
+#### Overlays (2)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Deapi Ai Openapi Overlay](https://apis.io/overlays/deapi-ai/deapi-ai-openapi-overlay/)
+- [Deapi Ai Openapi V2 Overlay](https://apis.io/overlays/deapi-ai/deapi-ai-openapi-v2-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [deapi-ai API Rules](https://apis.io/rules/deapi-ai/deapi-ai-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Deapi Ai Authentication](https://apis.io/security/deapi-ai/deapi-ai-authentication/)
+- [Deapi Ai Domain Security](https://apis.io/security/deapi-ai/deapi-ai-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Deapi Ai Scopes](https://apis.io/scopes/deapi-ai/deapi-ai-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Deapi Ai Plans Pricing](https://apis.io/plans/deapi-ai/deapi-ai-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Deapi Ai Rate Limits](https://apis.io/rate-limits/deapi-ai/deapi-ai-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://deapi.ai/)
+- [Documentation](https://docs.deapi.ai/)
+- [Getting started](https://docs.deapi.ai/quickstart)
+- [API reference](https://docs.deapi.ai/)
+- [Pricing](https://deapi.ai/pricing)
+- [Sign up](https://app.deapi.ai/register)
+- [Support](https://status.deapi.ai/)
+- [Changelog](https://deapi.ai/changelog)
+- [Blog](https://deapi.ai/blog)
+- [Terms of service](https://deapi.ai/terms-of-service)
+- [Privacy policy](https://deapi.ai/privacy-policy)
+- [GitHub](https://github.com/deapi-ai)
+- [Status](https://status.deapi.ai)
+
+## API Evangelist rating
+
+**Kin Score 70.8** — exemplar · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 75.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 83.7 |
+| Developer ergonomics | 70.7 |
+| Access clarity | 44.7 |
+
+**Agent readiness 59.0** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 31.8** — AI & Biometrics
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/deapi-ai/](https://apis.io/providers/deapi-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for deapi-ai: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/deapi-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
